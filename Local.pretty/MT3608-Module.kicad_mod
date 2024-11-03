@@ -1,0 +1,246 @@
+(footprint "MT3608-Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec248124-b118-45c5-a8d5-fa6753522648")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MT3608-Module"
+		(at 0 16.4 0)
+		(layer "F.SilkS")
+		(uuid "777f9079-38c3-43b1-b8ea-502a3d355e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c71b6933-63e5-43f1-8413-078a2f8e5bb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27f8dff8-b458-473a-a84d-7814c04a5df4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ececd14-ea97-4553-968e-619885520136")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -18.6055 16.222)
+		(end -18.6055 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f8a5d61-722c-49a6-8f8b-aba935ef1534")
+	)
+	(fp_line
+		(start -17.6055 -0.05)
+		(end 17.6055 -0.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5dde757-ddc0-4593-b309-5edb6f28d01c")
+	)
+	(fp_line
+		(start 17.6055 17.222)
+		(end -17.6055 17.222)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09f4c667-de86-41ad-bf93-479cf2394dad")
+	)
+	(fp_line
+		(start 18.6055 0.95)
+		(end 18.6055 16.222)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5c546541-e079-4bfb-8b8d-7865c4c364b9")
+	)
+	(fp_arc
+		(start -18.6055 0.95)
+		(mid -18.312607 0.242893)
+		(end -17.6055 -0.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "55d3bf2d-49f1-483e-9546-40fb0821feb3")
+	)
+	(fp_arc
+		(start -17.6055 17.222)
+		(mid -18.312607 16.929107)
+		(end -18.6055 16.222)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a39cd62a-fbd2-476a-b11b-0697c4b7e5a6")
+	)
+	(fp_arc
+		(start 17.6055 -0.05)
+		(mid 18.312607 0.242893)
+		(end 18.6055 0.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "531bfeca-e4ec-4068-8fe9-af46a02d1ac5")
+	)
+	(fp_arc
+		(start 18.6055 16.222)
+		(mid 18.312607 16.929107)
+		(end 17.6055 17.222)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dd185435-f0b9-44ca-b298-78a6a07e6b84")
+	)
+	(fp_rect
+		(start -18.875 -0.325)
+		(end 18.875 17.425)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e6718271-58a2-4bcf-98d8-525232ca5e4f")
+	)
+	(fp_text user "VOUT-"
+		(at 10.625 4.887085 0)
+		(layer "F.SilkS")
+		(uuid "2b593e56-3cc3-44be-b316-666b5d6a882b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "VIN+"
+		(at -11.1 12.284915 0)
+		(layer "F.SilkS")
+		(uuid "bb47f668-bd50-4480-a261-689c741d9033")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "VIN-"
+		(at -11.1 4.887085 0)
+		(layer "F.SilkS")
+		(uuid "dfe3e7ee-cfa3-4ecd-8be5-e3df22dbbdce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "VOUT+"
+		(at 10.625 12.284915 0)
+		(layer "F.SilkS")
+		(uuid "e923ccea-5a38-4207-9680-163f35c5c65e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -15.6055 12.284915)
+		(size 5 3)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.1)
+		(chamfer top_right)
+		(uuid "64c11052-e6ee-4359-a493-cb7ea547eef6")
+	)
+	(pad "2" smd rect
+		(at -15.6055 4.887085)
+		(size 5 3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ea306769-e101-43ea-a786-d51dabecfde6")
+	)
+	(pad "3" smd rect
+		(at 15.6055 12.284915)
+		(size 5 3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8dfc37c4-ee7f-46bb-bdbd-b9d2a0c6e422")
+	)
+	(pad "4" smd rect
+		(at 15.6055 4.887085)
+		(size 5 3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "218aa4b0-df88-4383-89e5-539923ec1210")
+	)
+	(model "${KIPRJMOD}/3d/MT3608 Converter.STEP"
+		(offset
+			(xyz 0 -8.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

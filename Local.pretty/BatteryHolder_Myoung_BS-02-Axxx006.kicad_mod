@@ -1,0 +1,221 @@
+(footprint "BatteryHolder_Myoung_BS-02-Axxx006"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.keyelco.com/product-pdf.cfm?p=719")
+	(tags "Keystone type 103 battery holder")
+	(property "Reference" "REF**"
+		(at 12.59 0.05 0)
+		(layer "F.SilkS")
+		(uuid "dcae7e4d-1f08-47eb-91d2-1da96e82ca96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryHolder_Myoung_BS-02-Axxx006"
+		(at 12.59 11.75 0)
+		(layer "F.SilkS")
+		(uuid "7f2dca49-e855-496a-88b0-bfa2a25730ca")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dea9e7c3-fb75-4fa3-83d5-4b4e388509e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01c8c069-9db4-400e-bf1e-8bcb07d4eefa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "356dc0c8-ed93-4f24-a8de-80b0701f71c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.86 -3.75)
+		(end 2.2 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7c1c354-6ead-451a-a197-e8cf01340c92")
+	)
+	(fp_line
+		(start -0.86 -1.6)
+		(end -0.86 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dde7ed3b-9b9b-46ce-86ad-aa12453d7295")
+	)
+	(fp_line
+		(start -0.86 3.75)
+		(end -0.86 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c718244-72ce-4001-8901-454579ec0651")
+	)
+	(fp_line
+		(start -0.86 3.75)
+		(end 2.15 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35a82bb0-3b0a-4f9a-aca4-4f1ce9fcce0a")
+	)
+	(fp_circle
+		(center 12.59 0)
+		(end 23.44 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "14b4c4c6-343c-4f8f-bfe9-aef2bca75f9a")
+	)
+	(fp_line
+		(start -1.5 -4.25)
+		(end 1.55 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b6ab5aa-6a0c-4ae2-b06e-6b7dbeb0fa05")
+	)
+	(fp_line
+		(start -1.5 4.25)
+		(end -1.5 -4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ce6c269-643b-4857-bc6d-3d87a2d436b6")
+	)
+	(fp_line
+		(start -1.5 4.25)
+		(end 1.55 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9cf58141-71d2-4ced-912e-233eb01f3e65")
+	)
+	(fp_arc
+		(start 1.550001 -4.25)
+		(mid 14.659946 -11.545847)
+		(end 24.240839 -0.000003)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07bff8ad-f2a9-4981-a768-720ec4cc304a")
+	)
+	(fp_arc
+		(start 24.249999 0)
+		(mid 14.659969 11.505255)
+		(end 1.558306 4.246741)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afb52eb5-25df-4ca7-8fa9-c0916b5ad146")
+	)
+	(fp_line
+		(start 0 -1.3)
+		(end 0 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b2cc79f-faef-4aba-a2b7-2e9fa6d1c7e1")
+	)
+	(fp_text user "+"
+		(at 2.75 0 0)
+		(layer "F.SilkS")
+		(uuid "fdf7ade8-5716-4835-9a77-d817be39cf8f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0.14 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b728477-2ed9-48b9-9a8b-ec3c3dd63cdc")
+	)
+	(pad "2" thru_hole circle
+		(at 20.49 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0679708-99bd-4a4c-86b2-fde6f5d2cd3a")
+	)
+	(model "${KIPRJMOD}/3d/KLS5-CR2032-01 battery holder.stp"
+		(offset
+			(xyz 12.45 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

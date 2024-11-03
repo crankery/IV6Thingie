@@ -1,0 +1,128 @@
+(footprint "Mini360-Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.7 0)
+		(layer "F.SilkS")
+		(uuid "884eefdc-315f-46d7-8da6-a8f2689d4b55")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mini360-Module"
+		(at 0 11.25 0)
+		(layer "F.SilkS")
+		(uuid "76d56443-9c1a-4136-b197-d4902c127ec5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34903d32-ada5-453a-81f3-c62cabd57e08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43eb1f96-6063-42a2-9937-85cd26d772f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ca983bf-bfd4-4b3e-b1ff-34dfb3dba357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -8.95 0)
+		(end 8.95 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6273c0af-ea9d-480d-8095-b67006062fa5")
+	)
+	(fp_rect
+		(start -9.2 -0.25)
+		(end 9.2 12.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ac946d2d-7ac7-41d6-b5cb-2c0c22d9234c")
+	)
+	(pad "1" smd roundrect
+		(at -7.53 1.42)
+		(size 2.54 2.54)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer bottom_right)
+		(uuid "10e498af-08e7-4b6c-b879-788462aefc09")
+	)
+	(pad "2" smd rect
+		(at -7.53 10.58 270)
+		(size 2.54 2.54)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ddb887d4-f9c3-49a8-9d85-229c14e09c2d")
+	)
+	(pad "3" smd rect
+		(at 7.53 1.42 270)
+		(size 2.54 2.54)
+		(layers "F.Cu" "F.Mask")
+		(uuid "865347e4-7f93-4e33-b697-b4706ad17d42")
+	)
+	(pad "4" smd rect
+		(at 7.53 10.58 270)
+		(size 2.54 2.54)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9d4e40c0-7b58-4224-a67b-24af8c04a05e")
+	)
+	(model "${KIPRJMOD}/3d/MIni - 360.step"
+		(offset
+			(xyz -0.15 -6.66 -16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
